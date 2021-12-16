@@ -1,0 +1,39 @@
+.v-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 450px;
+
+  .v-card__actions {
+    margin-top: auto;
+
+    >div {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.v-card__title {
+  justify-content: center;
+
+  a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+  }
+}
+
+.v-image__image--preload {
+  filter: none;
+  opacity: 0.5;
+}
+
+.v-card__text,
+.v-card__subtitle {
+  text-align: center;
+}
+
+.v-toolbar__content .v-btn:last-child {
+  margin-left: auto;
+}
